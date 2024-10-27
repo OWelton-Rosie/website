@@ -129,7 +129,7 @@
   <section class="projects" id="projects">
     <h2 class="section-title">Projects</h2>
     <p>Personal Portfolio Website (which you're currently looking at!)</p>
-    <p>Coding projects in HTML, CSS, and JavaScript, which can be found on my <a href="https://github.com/OWelton-Rosie" target="_blank">GitHub profile</a>.</p>
+    <p>Multiple coding projects in HTML, CSS, and JavaScript, which can be found on my <a href="https://github.com/OWelton-Rosie" target="_blank">GitHub profile</a>.</p>
   </section>
 
   <section class="contact" id="contact">
