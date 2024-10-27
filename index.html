@@ -29,6 +29,7 @@
       justify-content: center;
       gap: 15px;
       padding: 10px 0;
+      flex-wrap: wrap;
     }
     .nav-link {
       color: #fff;
@@ -89,6 +90,22 @@
       color: #fff;
       padding: 10px;
       font-size: 0.9em;
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media (max-width: 768px) {
+      header, section {
+        padding: 15px;
+      }
+      .nav-link {
+        padding: 8px 15px;
+        min-width: auto;
+        width: 100%; /* Stack the nav links */
+        margin-bottom: 5px;
+      }
+      .section-title {
+        font-size: 1.5em;
+      }
     }
   </style>
 </head>
