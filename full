@@ -73,13 +73,13 @@
       color: #c6a600;
     }
 
-    .vercel-link {
+    .cloudflare-link {
       color: #000;
       font-weight: bold;
       text-decoration: none;
       transition: color 0.3s ease;
     }
-    .vercel-link:hover {
+    .cloudflare-link:hover {
       color: #1E88E5;
       text-decoration: underline;
     }
@@ -134,12 +134,13 @@
 
   <section class="contact" id="contact">
     <h2 class="section-title">Contact Me</h2>
+      <p>I'd love to talk about speedcubing, video editing or programming! Below, I've listed the easiest ways to contact me.</p>
     <p><strong>Email:</strong> <a href="mailto:oweltonrosie@gmail.com" target="_blank">oweltonrosie@gmail.com</a></p>
     <p><strong>Discord:</strong> @iamoscar1</p>
   </section>
 
   <footer class="footer">
-    <p>&copy; 2024 Oscar Welton-Rosie. All Rights Reserved. Powered and secured by <a href="https://vercel.com/" class="vercel-link" target="_blank">Vercel</a>.</p>
+    <p>&copy; 2024 Oscar Welton-Rosie. All Rights Reserved. Powered and secured by <a href="https://cloudflare.com/" class="cloudflare-link" target="_blank">CloudFlare</a>.</p>
   </footer>
 
   <script>
