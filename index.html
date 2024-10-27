@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oscar Welton-Rosie: Video Editor, Programmer, Speedcuber, and Student. Explore my skills, projects, and speedcubing achievements.">
   <title>Oscar Welton-Rosie</title>
   <style>
     html {
-      scroll-behavior: auto;
+      scroll-behavior: smooth;
     }
     body {
       font-family: Arial, sans-serif;
@@ -14,9 +15,10 @@
       margin: 0;
       padding: 0;
       background-color: #eaeaf3;
+      font-size: 1rem;
     }
     header, section {
-      padding: 20px;
+      padding: 1.25rem;
       text-align: center;
     }
     header {
@@ -27,15 +29,15 @@
     nav {
       display: flex;
       justify-content: center;
-      gap: 15px;
-      padding: 10px 0;
+      gap: 0.9375rem;
+      padding: 0.625rem 0;
       flex-wrap: wrap;
     }
     .nav-link {
       color: #fff;
       text-decoration: none;
       display: inline-block;
-      padding: 10px 20px;
+      padding: 0.625rem 1.25rem;
       min-width: 120px;
       background-color: #444;
       border-radius: 4px;
@@ -49,20 +51,20 @@
 
     .intro {
       background: #ffd54f;
-      padding: 30px;
-      margin: 10px 0;
+      padding: 1.875rem;
+      margin: 0.625rem 0;
       border-radius: 8px;
     }
     .section-title {
       color: #333;
-      font-size: 1.8em;
-      margin-bottom: 10px;
+      font-size: 1.8rem;
+      margin-bottom: 0.625rem;
     }
     .skills, .work, .speedcubing, .projects, .contact {
       background-color: #fff;
-      padding: 20px;
+      padding: 1.25rem;
       border-radius: 8px;
-      margin: 10px 0;
+      margin: 0.625rem 0;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
@@ -88,110 +90,80 @@
     .footer {
       background-color: #333;
       color: #fff;
-      padding: 10px;
-      font-size: 0.9em;
+      padding: 0.625rem;
+      font-size: 0.875rem;
+      text-align: center;
     }
 
-    /* Responsive adjustments for smaller screens */
     @media (max-width: 768px) {
       header, section {
-        padding: 15px;
+        padding: 0.9375rem;
       }
       .nav-link {
-        padding: 8px 15px;
+        padding: 0.5rem 0.9375rem;
         min-width: auto;
-        width: 100%; /* Stack the nav links */
-        margin-bottom: 5px;
+        width: 100%;
+        margin-bottom: 0.3125rem;
       }
       .section-title {
-        font-size: 1.5em;
+        font-size: 1.5rem;
       }
     }
   </style>
 </head>
 <body>
 
+  <a href="#main-content" class="skip-link" style="position: absolute; top: -40px; left: 0; background: #333; color: #fff; padding: 8px; z-index: 100;">Skip to content</a>
+
   <header>
     <h1>Oscar Welton-Rosie</h1>
     <p>Video Editor | Programmer | Speedcuber | Student</p>
     <nav>
-      <a href="#about" class="nav-link" target="_blank">About</a>
-      <a href="#skills" class="nav-link" target="_blank">Skills</a>
-      <a href="#speedcubing" class="nav-link" target="_blank">Speedcubing</a>
-      <a href="#projects" class="nav-link" target="_blank">Projects</a>
-      <a href="#contact" class="nav-link" target="_blank">Contact</a>
+      <a href="#about" class="nav-link" aria-label="About section link">About</a>
+      <a href="#skills" class="nav-link" aria-label="Skills section link">Skills</a>
+      <a href="#speedcubing" class="nav-link" aria-label="Speedcubing section link">Speedcubing</a>
+      <a href="#projects" class="nav-link" aria-label="Projects section link">Projects</a>
+      <a href="#contact" class="nav-link" aria-label="Contact section link">Contact</a>
     </nav>
   </header>
     
-  <section class="intro" id="about">
-    <h2 class="section-title">About Me</h2>
-    <p>Hi! I'm Oscar, a passionate video editor, enthusiastic programmer and dedicated speedcuber.</p>
-    <p>As a student, I balance learning, creating, and competing in speedcubing competitions. I'm always eager to innovate and improve.</p>
-  </section>
+  <main id="main-content">
+    <section class="intro" id="about">
+      <h2 class="section-title">About Me</h2>
+      <p>Hi! I'm Oscar, a passionate video editor, enthusiastic programmer and dedicated speedcuber.</p>
+      <p>As a student, I balance learning, creating, and competing in speedcubing competitions. I'm always eager to innovate and improve.</p>
+    </section>
 
-  <section class="skills" id="skills">
-    <h2 class="section-title">Skills</h2>
-    <p><strong>Video Editing:</strong> Proficient with <a href="https://clipchamp.com/en/" target="_blank">Microsoft Clipchamp</a> and <a href="https://www.apple.com/nz/imovie/" target="_blank">Apple iMovie</a>. Currently learning <a href="https://www.adobe.com/products/premiere.html" target="_blank">Adobe Premiere Pro</a>.</p>
-    <p><strong>Programming:</strong> I use HTML, CSS, and JavaScript to create software. Check out some of my GitHub repositories <a href="https://github.com/OWelton-Rosie?tab=repositories" target="_blank">here</a>.</p>
-  </section>
+    <section class="skills" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <p><strong>Video Editing:</strong> Proficient with <a href="https://clipchamp.com/en/" target="_blank">Microsoft Clipchamp</a> and <a href="https://www.apple.com/nz/imovie/" target="_blank">Apple iMovie</a>. Currently learning <a href="https://www.adobe.com/products/premiere.html" target="_blank">Adobe Premiere Pro</a>.</p>
+      <p><strong>Programming:</strong> I use HTML, CSS, and JavaScript to create software. Check out some of my GitHub repositories <a href="https://github.com/OWelton-Rosie?tab=repositories" target="_blank">here</a>.</p>
+    </section>
 
-  <section class="speedcubing" id="speedcubing">
-    <h2 class="section-title">Speedcubing</h2>
-    <p>As an active speedcuber, I participate in competitions in my local area and constantly work on improving my times.</p>
-    <p><strong>Favorite Puzzle Types:</strong> <a href="https://en.wikipedia.org/wiki/Rubik's_Cube" target="_blank">3x3x3</a>, <a href="https://en.wikipedia.org/wiki/Pocket_Cube" target="_blank">2x2x2</a>, and <a href="https://en.wikipedia.org/wiki/Pyraminx" target="_blank">Pyraminx</a> puzzles.</p>
-    <p><strong>Best Times:</strong> Check out my in-competition results <a href="https://www.worldcubeassociation.org/persons/2023WELT02" target="_blank">here</a>.</p>
-      <p><strong>YouTube Channel:</strong> My speedcubing-focused YouTube channel can be found <a href="https://www.youtube.com/@oscarW-R" target="blank"> here</a> .</p>
-  </section>
+    <section class="speedcubing" id="speedcubing">
+      <h2 class="section-title">Speedcubing</h2>
+      <p>As an active speedcuber, I participate in competitions in my local area and constantly work on improving my times.</p>
+      <p><strong>Favorite Puzzle Types:</strong> <a href="https://en.wikipedia.org/wiki/Rubik's_Cube" target="_blank">3x3x3</a>, <a href="https://en.wikipedia.org/wiki/Pocket_Cube" target="_blank">2x2x2</a>, and <a href="https://en.wikipedia.org/wiki/Pyraminx" target="_blank">Pyraminx</a> puzzles.</p>
+      <p><strong>Best Times:</strong> Check out my in-competition results <a href="https://www.worldcubeassociation.org/persons/2023WELT02" target="_blank">here</a>.</p>
+      <p><strong>YouTube Channel:</strong> My speedcubing-focused YouTube channel can be found <a href="https://www.youtube.com/@oscarW-R" target="_blank"> here</a>.</p>
+    </section>
 
-  <section class="projects" id="projects">
-    <h2 class="section-title">Projects</h2>
-    <p>Personal Portfolio Website (which you're currently looking at!)</p>
-    <p>Multiple coding projects in HTML, CSS, and JavaScript, which can be found on my <a href="https://github.com/OWelton-Rosie" target="_blank">GitHub profile</a>.</p>
-  </section>
+    <section class="projects" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <p>Personal Portfolio Website (which you're currently looking at!)</p>
+      <p>Multiple coding projects in HTML, CSS, and JavaScript, which can be found on my <a href="https://github.com/OWelton-Rosie" target="_blank">GitHub profile</a>.</p>
+    </section>
 
-  <section class="contact" id="contact">
-    <h2 class="section-title">Contact Me</h2>
+    <section class="contact" id="contact">
+      <h2 class="section-title">Contact Me</h2>
       <p>I'd love to talk about speedcubing, video editing or programming! Below, I've listed the easiest ways to contact me.</p>
-    <p><strong>Email:</strong> <a href="mailto:oweltonrosie@gmail.com" target="_blank">oweltonrosie@gmail.com</a></p>
-    <p><strong>Discord:</strong> @iamoscar1</p>
-  </section>
+      <p><strong>Email:</strong> <a href="mailto:oweltonrosie@gmail.com" target="_blank">oweltonrosie@gmail.com</a></p>
+      <p><strong>Discord:</strong> @iamoscar1</p>
+    </section>
+  </main>
 
   <footer class="footer">
     <p>&copy; 2024 Oscar Welton-Rosie. All Rights Reserved. Powered and secured by <a href="https://cloudflare.com/" class="cloudflare-link" target="_blank">Cloudflare</a>.</p>
   </footer>
-
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-
-        const target = document.querySelector(this.getAttribute('href'));
-        const targetPosition = target.getBoundingClientRect().top + window.scrollY;
-        const startPosition = window.scrollY;
-        const distance = targetPosition - startPosition;
-        const duration = 800;
-        let startTime = null;
-
-        function animation(currentTime) {
-          if (startTime === null) startTime = currentTime;
-          const timeElapsed = currentTime - startTime;
-          const run = ease(timeElapsed, startPosition, distance, duration);
-          window.scrollTo(0, run);
-
-          if (timeElapsed < duration) requestAnimationFrame(animation);
-        }
-
-        function ease(t, b, c, d) {
-          t /= d / 2;
-          if (t < 1) return c / 2 * t * t + b;
-          t--;
-          return -c / 2 * (t * (t - 2) - 1) + b;
-        }
-
-        requestAnimationFrame(animation);
-      });
-    });
-  </script>
-
 </body>
 </html>
