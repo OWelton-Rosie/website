@@ -7,5 +7,4 @@
 <h1>Edit schedule</h1>
 <p>I don't schedule edits; they often come to me at weird times. However, I typically edit <a href="https://github.com/OWelton-Rosie/website/blob/main/index.html">index.html</a> at least twice a day. 
 <p>The full commits list (the changelog) can be found <a href="https://github.com/OWelton-Rosie/website/commits/main/">here</a>.</p>
-<br>
 <p>Note that GitHub isn't my primary editor, so it can take up to a few hours for changes to <a href="https://github.com/OWelton-Rosie/website/blob/main/index.html">index.html</a> to be committed. It typically takes <30 seconds for changes to be deployed to the website hosted on <a href="https://pages.cloudflare.com/">Cloudflare Pages</a> .</p>
