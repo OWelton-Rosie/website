@@ -5,3 +5,5 @@
 <ul><strong>3: </strong> Lastly, the website user will have to refresh the page to view the most recent version. I'm currently working on automating this.</ul>
 <h1>Edit schedule</h1>
 <p>I don't really schedule edits; they often come to me at weird times. The full commits list (the changelog) can be found <a href="https://github.com/OWelton-Rosie/website/commits/main/">here</a> .</p>
+<br>
+<p>Note that GitHub isn't my primary editor, so it can take up to a few hours for changes to <a href="https://github.com/OWelton-Rosie/website/blob/main/index.html">index.html</a>  to be made.</p>
