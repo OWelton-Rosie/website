@@ -1,4 +1,6 @@
-<p>This is my personal <a href="https://website-j83.pages.dev/">website</a>.<p>
+<p>This is my personal <a href="https://website-j83.pages.dev/">website</a>.</p> 
+<br>
+<p>I use Cloudflare Pages-GitHub integration to manage changes to my website.<p>
 <h1>How it works</h1>
 <ul><strong>1:</strong> First, I have to commit a change to the targeted GitHub file (<a href="https://github.com/OWelton-Rosie/website/blob/main/index.html">index.html</a>).</ul>
 <ul><strong>2:</strong> <a href="https://pages.cloudflare.com/">Cloudflare Pages</a>, which is linked to my GitHub account, automatically detects and deploys any changes committed to <a href="https://github.com/OWelton-Rosie/website/blob/main/index.html">index.html</a> (either negative or positive but excluding changes that don't affect the published website, such as a name change to <a href="https://github.com/OWelton-Rosie/website/blob/main/index.html">index.html</a>).</ul>
