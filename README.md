@@ -9,6 +9,6 @@
 <ul><strong>3:</strong> Next, the website user will have to refresh the page to view the most recent version. I'm currently working on automating this.</ul>
  <ul><strong>4:</strong> Lastly, I check my website's Cloudflare dashboard to make sure that the most recent commit has been deployed.</ul>
 <h1>Edit schedule</h1>
-<p>I don't schedule edits; they often come to me at weird times. However, I typically edit <a href="https://github.com/OWelton-Rosie/website/blob/main/index.html">index.html</a> at least twice a day. 
+<p>I don't schedule edits; they often come to me at weird times. However, I typically edit <a href="https://github.com/OWelton-Rosie/website/blob/main/index.html">index.html</a> at least a few times a week. 
 <p>The full commits list (the changelog) can be found <a href="https://github.com/OWelton-Rosie/website/commits/main/">here</a>.</p>
 <p>Note that GitHub isn't my primary editor, so it can take up to a few hours for changes to <a href="https://github.com/OWelton-Rosie/website/blob/main/index.html">index.html</a> to be committed. It typically takes <30 seconds for changes to be deployed to the website hosted on <a href="https://pages.cloudflare.com/">Cloudflare Pages</a> .</p>
